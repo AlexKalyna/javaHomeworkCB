@@ -45,28 +45,25 @@ public static void main(String[] args) {
   System.out.println("Enter player action ('G' - play, 'P' - pause, 'S' - stop, 'R' - record: ");
 
   playerAction = input.next();
-    while (true)
 
     if (playerAction.equals("G") || playerAction.equals("g")) {
       Player mp3 = new Player();
       mp3.play();
-      break;
+
     } else if (playerAction.equals("P") || playerAction.equals("p")) {
       Player mp3 = new Player();
       mp3.pause();
-      break;
+
     } else if (playerAction.equals("S") || playerAction.equals("s")) {
       Player mp3 = new Player();
       mp3.stop();
-      break;
+
     } else if (playerAction.equals("R") || playerAction.equals("r")) {
       Player mp3 = new Player();
       mp3.record();
-      break;
-    } else {System.out.println("Error!");
-  break;}
-  }
 
+    } else System.out.println("Error!");
+  }
 }
 
 
