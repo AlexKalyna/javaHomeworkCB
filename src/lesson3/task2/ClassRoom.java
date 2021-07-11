@@ -34,7 +34,6 @@ public class ClassRoom {
       p.relax();
     }
   }
-
     class  Main{
     public static void main(String[] args) {
 
@@ -52,9 +51,5 @@ public class ClassRoom {
       c1Room.PrintInfoRead();
       c1Room.PrintInfoWrite();
       c1Room.PrintInfoRelax();
-
-
-
-
     }
   }
